@@ -1,0 +1,35 @@
+VARIABLES
+
+Type 		Tipo de relámpago
+
+	0=	Nube a Tierra (CG)
+	1= 	En la nube (entre nubes) (IC)
+	40= 	Nube a tierra Global (CG)
+
+
+Timestamp	Momento en que detecta un pulso 
+
+	YYYY-MM-DD T HH:MM:SS= 	AÑO-MES-DIA T HORA:MINUTO:SEGUNDO en UTC
+
+
+Latitude =  	Latitud
+Longitude = 	Longitud
+
+peakcurrent		Pico de corriente
+
+	Se miden en amperios. 
+	La polaridad se puede determinar en donde el valor es negativo (indicado con un "-"), de lo contrario tiene una polaridad positiva.
+
+
+IC height		Altura de rayo
+		Altura o altitud del rayo IC detectado. Medido en metros.
+
+numbersensors		Numero de sensores
+		Número de sensores utilizados en la localización de un rayo / pulso.
+
+majoraxis		Los datos de rayos de pulso incluyen puntos lipticos de error y pueden 		
+minoraxis		calcularse utilizando los campos mayor, menor y de demora (majoraxis,
+bearing			minoraxis, bearing)
+
+
+
